@@ -19,13 +19,13 @@ python3
 import example_pkg
 
 # You could use the package as follows (making sure numpy and matplotlib are installed in the venv
-import numpy as np \n
-import matplotlib.pyplot as plt \n
-from example_pkg import GaussianProcess as GP \n
+import numpy as np  
+import matplotlib.pyplot as plt  
+from example_pkg import GaussianProcess as GP  
 
-mygptwo = GP(xvalues=np.arange(-5, 5, 0.01)) \n
-mygptwo.setparameters(p=0.5, l=1, nu=5 / 2, kernel_type="Matern") \n
-mygptwo.getKernelMatrix() \n
-fig = plt.gcf() \n
+mygptwo = GP(xvalues=np.arange(-5, 5, 0.01))  
+mygptwo.setparameters(p=0.5, l=1, nu=5 / 2, kernel_type="Matern")  
+mygptwo.getKernelMatrix()  
+fig = plt.gcf()  
 mygptwo.plotCovarianceFunction()
 
