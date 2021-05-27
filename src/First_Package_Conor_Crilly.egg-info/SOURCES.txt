@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/First_Package_Conor_Crilly.egg-info/PKG-INFO
+src/First_Package_Conor_Crilly.egg-info/SOURCES.txt
+src/First_Package_Conor_Crilly.egg-info/dependency_links.txt
+src/First_Package_Conor_Crilly.egg-info/top_level.txt
+src/example_pkg/GaussianProcess.py
+src/example_pkg/__init__.py
+src/example_pkg/main.py
